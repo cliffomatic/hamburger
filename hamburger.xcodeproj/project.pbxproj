@@ -19,6 +19,12 @@
 		BB662AAF196F0C830040EB1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB662A97196F0C830040EB1F /* UIKit.framework */; };
 		BB662AB7196F0C830040EB1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB662AB5196F0C830040EB1F /* InfoPlist.strings */; };
 		BB662AB9196F0C830040EB1F /* hamburgerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB662AB8196F0C830040EB1F /* hamburgerTests.m */; };
+		BB662AC5196F0CB70040EB1F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB662AC3196F0CB70040EB1F /* MenuViewController.m */; };
+		BB662AC6196F0CB70040EB1F /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB662AC4196F0CB70040EB1F /* MenuViewController.xib */; };
+		BB662ACA196F0CD20040EB1F /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB662AC8196F0CD20040EB1F /* FeedViewController.m */; };
+		BB662ACB196F0CD20040EB1F /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB662AC9196F0CD20040EB1F /* FeedViewController.xib */; };
+		BB662ACF196F0CF00040EB1F /* HamburgerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB662ACD196F0CF00040EB1F /* HamburgerViewController.m */; };
+		BB662AD0196F0CF00040EB1F /* HamburgerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB662ACE196F0CF00040EB1F /* HamburgerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		BB662AB4196F0C830040EB1F /* hamburgerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hamburgerTests-Info.plist"; sourceTree = "<group>"; };
 		BB662AB6196F0C830040EB1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB662AB8196F0C830040EB1F /* hamburgerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hamburgerTests.m; sourceTree = "<group>"; };
+		BB662AC2196F0CB70040EB1F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		BB662AC3196F0CB70040EB1F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		BB662AC4196F0CB70040EB1F /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		BB662AC7196F0CD20040EB1F /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		BB662AC8196F0CD20040EB1F /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		BB662AC9196F0CD20040EB1F /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		BB662ACC196F0CF00040EB1F /* HamburgerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerViewController.h; sourceTree = "<group>"; };
+		BB662ACD196F0CF00040EB1F /* HamburgerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerViewController.m; sourceTree = "<group>"; };
+		BB662ACE196F0CF00040EB1F /* HamburgerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HamburgerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,15 @@
 				BB662AA2196F0C830040EB1F /* AppDelegate.h */,
 				BB662AA3196F0C830040EB1F /* AppDelegate.m */,
 				BB662AA5196F0C830040EB1F /* Images.xcassets */,
+				BB662AC2196F0CB70040EB1F /* MenuViewController.h */,
+				BB662AC3196F0CB70040EB1F /* MenuViewController.m */,
+				BB662AC4196F0CB70040EB1F /* MenuViewController.xib */,
+				BB662AC7196F0CD20040EB1F /* FeedViewController.h */,
+				BB662AC8196F0CD20040EB1F /* FeedViewController.m */,
+				BB662AC9196F0CD20040EB1F /* FeedViewController.xib */,
+				BB662ACC196F0CF00040EB1F /* HamburgerViewController.h */,
+				BB662ACD196F0CF00040EB1F /* HamburgerViewController.m */,
+				BB662ACE196F0CF00040EB1F /* HamburgerViewController.xib */,
 				BB662A9A196F0C830040EB1F /* Supporting Files */,
 			);
 			path = hamburger;
@@ -220,6 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB662A9E196F0C830040EB1F /* InfoPlist.strings in Resources */,
+				BB662AC6196F0CB70040EB1F /* MenuViewController.xib in Resources */,
+				BB662ACB196F0CD20040EB1F /* FeedViewController.xib in Resources */,
+				BB662AD0196F0CF00040EB1F /* HamburgerViewController.xib in Resources */,
 				BB662AA6196F0C830040EB1F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB662AA4196F0C830040EB1F /* AppDelegate.m in Sources */,
+				BB662AC5196F0CB70040EB1F /* MenuViewController.m in Sources */,
+				BB662ACA196F0CD20040EB1F /* FeedViewController.m in Sources */,
 				BB662AA0196F0C830040EB1F /* main.m in Sources */,
+				BB662ACF196F0CF00040EB1F /* HamburgerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

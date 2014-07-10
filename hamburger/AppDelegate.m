@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "HamburgerViewController.h"
+#import "FeedViewController.h"
+#import "MenuViewController.h"
+
 
 @implementation AppDelegate
 
@@ -14,6 +18,18 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    MenuViewController *menuViewController = [[MenuViewController alloc] init];
+    HamburgerViewController *hamburgerViewController = [[HamburgerViewController alloc] init];
+    
+    hamburgerViewController.viewControllers = @[feedViewController,menuViewController];
+    
+    self.window.rootViewController  = hamburgerViewController;
+
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
